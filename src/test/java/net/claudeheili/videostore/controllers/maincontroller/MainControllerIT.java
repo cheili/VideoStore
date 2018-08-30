@@ -5,16 +5,15 @@ import java.net.URL;
 import java.util.Optional;
 
 import org.junit.Before;
-import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.boot.web.server.LocalServerPort;
-import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import net.claudeheili.videostore.interfaces.MainController;
+import net.claudeheili.videostore.model.Movie;
 import net.claudeheili.videostore.model.User;
 
 @RunWith(SpringRunner.class)
@@ -48,6 +47,12 @@ public class MainControllerIT implements MainController {
 
 	@Override
 	public Optional<User> getUserById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Iterable<Movie> getMovies() {
 		// TODO Auto-generated method stub
 		return null;
 	}

@@ -42,7 +42,7 @@ INSERT INTO `APPLICATION_USER` (email, person_id) VALUES ('laetitia.krieger@gmai
 INSERT INTO `APPLICATIONUSER_ROLE` (application_user_id, role_id) VALUES (1, 1);
 
 -- MOVIE -- 
-INSERT INTO `MOVIE` (title) VALUES ('Léon');
+INSERT INTO `MOVIE` (title) VALUES ('LÃ©on');
 INSERT INTO `MOVIE` (title) VALUES ('James Bond 007 contre Dr No');
 
 -- ACTOR_MOVIE -- 

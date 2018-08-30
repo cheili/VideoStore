@@ -18,6 +18,7 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 import net.claudeheili.videostore.controllers.MainControllerImpl;
 import net.claudeheili.videostore.interfaces.MainController;
+import net.claudeheili.videostore.model.Movie;
 import net.claudeheili.videostore.model.User;
 
 @RunWith(SpringRunner.class)
@@ -54,5 +55,11 @@ public class MainControllerMock implements MainController {
 		mvc.perform(MockMvcRequestBuilders.get(MainControllerImpl.REQUEST_MAPPING_PATH + "/user/1").accept(MediaType.APPLICATION_JSON)).andExpect(status().isOk())
 				.andExpect(content().string(equalTo("{\"id\":1,\"name\":\"Smith\",\"email\":\"Smith@test.com\"}")));
 
+	}
+
+	@Override
+	public Iterable<Movie> getMovies() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }
