@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 <<<<<<< Upstream, based on origin/develop
 
 =======
 >>>>>>> f0ebb6c Squashed commit of the following:
+=======
+>>>>>>> refs/heads/feature/ListMoviesService
 package net.claudeheili.videostore.interfaces;
 
 import java.util.Optional;

@@ -1,7 +1,10 @@
 package net.claudeheili.videostore.controllers;
 
+<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.List;
+=======
+>>>>>>> refs/heads/feature/ListMoviesService
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
