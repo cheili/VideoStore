@@ -26,11 +26,17 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 dependencies {
+    
     compile("org.springframework.boot:spring-boot-starter-web")
-    compile("org.springframework.boot:spring-boot-starter-actuator")
-    compile 'org.springframework.boot:spring-boot-starter-data-jpa'
-    compile('org.springframework.boot:spring-boot-starter-data-rest')
-    compile('mysql:mysql-connector-java')
+    compile("org.springframework.boot:spring-boot-starter-security")
+	compile("org.springframework.boot:spring-boot-starter-actuator")
+    compile("org.springframework.boot:spring-boot-starter-data-jpa")    
+    compile("org.springframework.boot:spring-boot-starter-data-rest")
+    compile("io.jsonwebtoken:jjwt:0.7.0")
+    compile("mysql:mysql-connector-java")
+    compile("com.h2database:h2")
+    
     testCompile("junit:junit")
     testCompile("org.springframework.boot:spring-boot-starter-test")
+    testCompile("org.springframework.security:spring-security-test")
 }
