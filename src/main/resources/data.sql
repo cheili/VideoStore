@@ -1,3 +1,4 @@
+
 -- USER --
 INSERT INTO `USER` (id, user_name, password, first_name, last_name, email, enabled, last_password_reset_date) VALUES (1, 'admin', '$2a$08$lDnHPz7eUkSi6ao14Twuau08mzhWrL4kyZGGU5xfiGALO/Vxd5DOi', 'admin', 'admin', 'admin@admin.com', 1, '01-01-2016');
 INSERT INTO `USER` (id, user_name, password, first_name, last_name, email, enabled, last_password_reset_date) VALUES (2, 'user', '$2a$08$UkVvwpULis18S19S5pZFn.YHPZt3oaqHZnDwqbCW9pft6uFtkXKDC', 'user', 'user', 'enabled@user.com', 1, '01-01-2016');
@@ -61,3 +62,8 @@ INSERT INTO `MOVIE` (title) VALUES ('James Bond 007 contre Dr No');
 -- ACTOR_MOVIE -- 
 INSERT INTO `ACTOR_MOVIE` (actor_id, movie_id) VALUES (2, 1);
 INSERT INTO `ACTOR_MOVIE` (actor_id, movie_id) VALUES (3, 2);
+
+
+
+
+
