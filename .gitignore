@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+/.gradle/
+=======
 /bin/
 /.gradle/
 /build/
+>>>>>>> refs/heads/release/JWT
